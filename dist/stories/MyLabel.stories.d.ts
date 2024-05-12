@@ -1,0 +1,10 @@
+import { type Props } from "../components/MyLabel";
+import { Meta, StoryObj } from "@storybook/react";
+declare const meta: Meta<Props>;
+export default meta;
+type Story = StoryObj<typeof meta>;
+export declare const Basic: Story;
+export declare const ALLCaps: Story;
+export declare const Secondary: Story;
+export declare const CustomColors: Story;
+export declare const BackgroundColor: Story;

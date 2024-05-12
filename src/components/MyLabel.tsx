@@ -1,9 +1,9 @@
 
 
 import '../components/MyLabel.css'
-import { ALLCaps, Secondary, CustomColors } from '../stories/MyLabel.stories';
 
-interface Props {
+
+export interface Props {
   /**
    *  Text to display
    */
