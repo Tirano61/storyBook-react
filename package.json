@@ -1,6 +1,6 @@
 {
   "name": "react-storybook-component",
-  "version": "0.0.1-rc5",
+  "version": "0.1.0",
   "private": false,
   "type": "module",
   "main": "dist/index.js",
@@ -39,7 +39,7 @@
     "chromatic": "npx chromatic --project-token=chpt_1c12df5618588eb",
     "clean": "rimraf dist/",
     "copyFiles": "copyFiles -u 1 src/**/*.css dist/",
-    "push:npm" : "np"
+    "push:npm": "np"
   },
   "eslintConfig": {
     "extends": [
